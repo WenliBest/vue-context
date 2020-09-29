@@ -1,3 +1,9 @@
+# Attention:
+
+I'm looking for someone or some people to help maintain this project. In the last few months, I've moved away from using Vue in favor of a Laravel Livewire/AlpineJS combination. Because of that, it doesn't really make sense for me to maintain this library anymore since I'd rather put the time into stuff that is useful for that stack. 
+
+I'd rather not abandon the package entirely, so any help maintaining it would be greatly appreciated! If interested, please send me an email at randall@randallwilk.dev. 
+
 # vue-context
 
 [![npm version](https://img.shields.io/npm/v/vue-context.svg?style=for-the-badge)](https://www.npmjs.com/package/vue-context)
@@ -7,12 +13,12 @@
 [![VueJS version](https://img.shields.io/badge/vue.js-2.x-green.svg?style=for-the-badge)](https://vuejs.org)
 
 `vue-context` provides a simple yet flexible context menu for Vue. It is styled for the standard `<ul>` tag, but any menu template can be used.
-The menu is lightweight with its only dependency being `vue-clickaway`. The menu has some basic styles applied to it but they can be easily 
+The menu is lightweight with its only dependency being `vue-clickaway`. The menu has some basic styles applied to it, but they can be easily 
 overridden by your own styles.
 <br><br>
 The menu disappears when you expect by utilizing `vue-clickaway` and it also optionally disappears when clicked on.
 
-![Screenshot](screenshot.jpg)
+![Screenshot](docs/images/screenshot.jpg)
 
 ## Getting Started
 
@@ -32,7 +38,7 @@ Import the component and use it in your app.
 
 ```js
 import Vue from 'vue';
-import { VueContext } from 'vue-context';
+import VueContext from 'vue-context';
 
 new Vue({
     components: {
@@ -82,7 +88,9 @@ Next add an element to the page that will trigger the context menu to appear, an
 
 ## Documentation/Demo
 
-For full documentation and demos, go here: https://vue-context.com/docs
+For full documentation and demos, go here: https://randallwilk.dev/docs/vue-context.
+
+If you would like to contribute to the documentation, you can edit the docs found here: https://github.com/rawilk/vue-context/tree/master/docs
 
 ## Contributors
 
@@ -91,6 +99,7 @@ This project exists thanks to all the people who contribute. [[Contribute]](CONT
 - [rawilk](https://github.com/rawilk)
 - [wol-soft](https://github.com/wol-soft)
 - [nachodd](https://github.com/nachodd)
+- [Nberezhnoy](https://github.com/Nberezhnoy)
 
 ## License
 

@@ -6,3 +6,5 @@ build/
 CODE_OF_CONDUCT.md
 CONTRIBUTING.md
 .editorconfig
+docs/
+docs-build/
